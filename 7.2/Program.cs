@@ -68,7 +68,8 @@ namespace _7._2
                 }
             }
 
-            Console.WriteLine(shinyGold.GetTotalNodes());
+            // -1 because I don't have to count the shiny bag itself
+            Console.WriteLine(shinyGold.GetTotalNodes() - 1);
         }
     }
 
